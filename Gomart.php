@@ -6,7 +6,7 @@ include "fcgomart.php";
 ulang:
 // function change(){
 echo color("purple","               CLAIM VOUCHER GOJEK   GOMART                  \n");
-echo color("red","                By king @pemangsavoucher                     \n");
+echo color("red","                By iNoZ @pejuang0nlinesda                     \n");
 echo color("nevy","        Waktu  : ".date('[d-m-Y] [H:i:s]')."                        \n");
 echo color("green","         Donasi Bisa Ke WA Dibawah Ini                       \n") ;
 echo color("yellow","                 WA 08xxxxxxxxxx                          \n");
@@ -94,7 +94,7 @@ echo "\n";
         echo color("blue","👀 ");
         sleep(10);
         }
-         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKINAJA"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -108,7 +108,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKINAJA"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
@@ -122,7 +122,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKINAJA"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -136,7 +136,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKINAJA"}');
         $message = fetch_value1($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
@@ -153,7 +153,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(8);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKINAJA"}');
         $message = fetch_value1($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -170,7 +170,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(7);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"MAUGOFOOD1908"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJEKHEMAT"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -222,7 +222,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         $expired11 = getStr23('"expiry_date":"','"',$cekvoucher,'11');
         $expired12 = getStr23('"expiry_date":"','"',$cekvoucher,'12');
         $expired13 = getStr23('"expiry_date":"','"',$cekvoucher,'13');
-    echo color("nevy","  SEMOGA CUAN,  SCRIPT BY KING \n");   
+    echo color("nevy","  SEMOGA CUAN,  SCRIPT BY iNoZ \n");   
        
        setpin:
          echo "\n".color("yellow","  📲📟 SET PIN ?: y/n ");
